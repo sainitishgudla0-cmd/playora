@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import 'react-date-range/dist/styles.css';
+@import 'react-date-range/dist/theme/default.css';
+
+
+
+
+@theme{
+  --color-primary:#2563EB;
+  --color-secondary:#FBBF24;
+}
+
+    @font-face {
+    font-family: 'Magneto Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/MAGNETOB.woff') format('woff');
+    }
+.font-magneto {
+  font-family: 'Magneto Bold', cursive;
+}
+
+.font-Outfit{
+  font-family: Outfit;
+}
+.font-playfair{
+  font-family: Playfair !important;
+
+}
