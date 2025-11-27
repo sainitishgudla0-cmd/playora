@@ -53,8 +53,8 @@ const Hero = () => {
     return (
         <section className="relative min-h-[100vh] bg-cover bg-center bg-white text-white">
             {/* Background layers */}
-            <div className="absolute inset-0 h-160 bg-cover bg-center bg-[url('/src/assets/heroImage1.jpg')]" />
-            <div className="absolute inset-0 h-160 bg-cover bg-center bg-black/30" />
+            <div className="absolute inset-0 h-168 bg-cover bg-center bg-[url('/src/assets/heroImage1.jpg')]" />
+            <div className="absolute inset-0 h-168 bg-cover bg-center bg-black/30" />
 
             {/* Hero Content */}
             <div className="relative z-10 max-w-6xl mx-auto pt-28 md:pt-36 px-6">
@@ -76,7 +76,7 @@ const Hero = () => {
             </div>
 
             {/* Booking Bar */}
-            <div className="absolute inset-x-0 bottom-0 z-5 px-11">
+            <div className="absolute inset-x-0 bottom-0 z-5 px-40 mb-6">
                 <div className="bg-white  text-gray-900 shadow-[0_-6px_24px_rgba(0,0,0,0.25)]">
                     <div className="mx-auto max-w-[1000px] px-2 md:px-5 py-6 md:py-5">
                         <form

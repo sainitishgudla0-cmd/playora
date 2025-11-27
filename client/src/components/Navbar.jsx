@@ -24,13 +24,13 @@
 
     const Navbar = () => {
     const navLinks = [
-        { name: 'Offers', path: '/' },
-        { name: 'Accomodations', path: '/rooms' },
-        { name: 'Dining', path: '/' },
-        { name: 'Experiences', path: '/' },
-        { name: 'Festive', path: '/' },
-        { name: 'Wellness', path: '/' },
-        { name: 'About', path: '/' }
+        { name: 'Offers', path: '/offers' },
+        { name: 'Accommodations', path: '/rooms' },
+        { name: 'Dining', path: '/dining' },
+        { name: 'Experiences', path: '/experiences' },
+        { name: 'Festive', path: '/festive' },
+        { name: 'Wellness', path: '/wellness' },
+        { name: 'About', path: '/about' }
     ];
 
     const [isScrolled, setIsScrolled] = useState(false);

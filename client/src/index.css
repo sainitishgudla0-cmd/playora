@@ -3,28 +3,34 @@
 @import 'react-date-range/dist/styles.css';
 @import 'react-date-range/dist/theme/default.css';
 
-
-
-
-@theme{
-  --color-primary:#2563EB;
-  --color-secondary:#FBBF24;
+/* 🧩 CUSTOM LOCAL FONTS */
+@font-face {
+  font-family: 'Magneto Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/src/assets/MAGNETOB.woff') format('woff');
 }
 
-    @font-face {
-    font-family: 'Magneto Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./assets/MAGNETOB.woff') format('woff');
-    }
+@font-face {
+  font-family: 'bileha';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/src/assets/Bileha.otf') format('opentype');
+}
+
+/* 🧠 CUSTOM FONT CLASSES */
 .font-magneto {
   font-family: 'Magneto Bold', cursive;
 }
 
-.font-Outfit{
-  font-family: Outfit;
+.font-bileha {
+  font-family: 'bileha';
 }
-.font-playfair{
-  font-family: Playfair !important;
 
+.font-Outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair', serif !important;
 }
