@@ -1,6 +1,6 @@
 import logo from './logo.png'
 import logo2 from './logo2.png'
-import Newsletterimage from './heroimage1.jpg'
+import Newsletterimage from './heroImage1.jpg'
 import searchIcon from './searchIcon.svg'
 import userIcon from './userIcon.svg'
 import calenderIcon from './calenderIcon.svg'
